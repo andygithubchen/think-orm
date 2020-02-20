@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\connector;
+namespace thinkorm\db\connector;
 
 use PDO;
-use think\db\PDOConnection;
+use thinkorm\db\PDOConnection;
 
 /**
  * mysql数据库驱动

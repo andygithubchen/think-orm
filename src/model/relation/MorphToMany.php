@@ -9,14 +9,14 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace thinkorm\model\relation;
 
 use Closure;
-use think\db\BaseQuery as Query;
-use think\db\Raw;
-use think\helper\Str;
-use think\Model;
-use think\model\Relation;
+use thinkorm\db\BaseQuery as Query;
+use thinkorm\db\Raw;
+use thinkorm\helper\Str;
+use thinkorm\Model;
+use thinkorm\model\Relation;
 
 /**
  * 多态多对多关联

@@ -9,15 +9,15 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace thinkorm\model\relation;
 
 use Closure;
-use think\Collection;
-use think\db\BaseQuery as Query;
-use think\db\exception\DbException as Exception;
-use think\helper\Str;
-use think\Model;
-use think\model\Relation;
+use thinkorm\Collection;
+use thinkorm\db\BaseQuery as Query;
+use thinkorm\db\exception\DbException as Exception;
+use thinkorm\helper\Str;
+use thinkorm\Model;
+use thinkorm\model\Relation;
 
 /**
  * 多态一对多关联

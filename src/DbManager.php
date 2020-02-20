@@ -10,15 +10,15 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think;
+namespace thinkorm;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use Psr\SimpleCache\CacheInterface;
-use think\db\BaseQuery;
-use think\db\ConnectionInterface;
-use think\db\Query;
-use think\db\Raw;
+use thinkorm\db\BaseQuery;
+use thinkorm\db\ConnectionInterface;
+use thinkorm\db\Query;
+use thinkorm\db\Raw;
 
 /**
  * Class DbManager
@@ -295,7 +295,7 @@ class DbManager
         if (false !== strpos($type, '\\')) {
             $class = $type;
         } else {
-            $class = '\\think\\db\\connector\\' . ucfirst($type);
+            $class = '\\thinkorm\\db\\connector\\' . ucfirst($type);
         }
 
         /** @var ConnectionInterface $connection */

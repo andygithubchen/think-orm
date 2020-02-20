@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace thinkorm\model\concern;
 
-use think\db\exception\ModelEventException;
-use think\helper\Str;
+use thinkorm\db\exception\ModelEventException;
+use thinkorm\helper\Str;
 
 /**
  * 模型事件处理

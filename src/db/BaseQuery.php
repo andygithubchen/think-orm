@@ -10,15 +10,15 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace thinkorm\db;
 
-use think\Collection;
-use think\db\exception\DataNotFoundException;
-use think\db\exception\DbException as Exception;
-use think\db\exception\ModelNotFoundException;
-use think\helper\Str;
-use think\Model;
-use think\Paginator;
+use thinkorm\Collection;
+use thinkorm\db\exception\DataNotFoundException;
+use thinkorm\db\exception\DbException as Exception;
+use thinkorm\db\exception\ModelNotFoundException;
+use thinkorm\helper\Str;
+use thinkorm\Model;
+use thinkorm\Paginator;
 
 /**
  * 数据查询基础类

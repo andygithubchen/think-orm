@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\builder;
+namespace thinkorm\db\builder;
 
-use think\db\Builder;
-use think\db\exception\DbException as Exception;
-use think\db\Query;
-use think\db\Raw;
+use thinkorm\db\Builder;
+use thinkorm\db\exception\DbException as Exception;
+use thinkorm\db\Query;
+use thinkorm\db\Raw;
 
 /**
  * mysql数据库驱动

@@ -10,14 +10,14 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace thinkorm\model\concern;
 
-use think\Collection;
-use think\db\exception\DbException as Exception;
-use think\helper\Str;
-use think\Model;
-use think\model\Collection as ModelCollection;
-use think\model\relation\OneToOne;
+use thinkorm\Collection;
+use thinkorm\db\exception\DbException as Exception;
+use thinkorm\helper\Str;
+use thinkorm\Model;
+use thinkorm\model\Collection as ModelCollection;
+use thinkorm\model\relation\OneToOne;
 
 /**
  * 模型数据转换处理

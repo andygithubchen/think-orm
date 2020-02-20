@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\relation;
+namespace thinkorm\model\relation;
 
 use Closure;
-use think\db\BaseQuery as Query;
-use think\helper\Str;
-use think\Model;
+use thinkorm\db\BaseQuery as Query;
+use thinkorm\helper\Str;
+use thinkorm\Model;
 
 /**
  * HasOne 关联类

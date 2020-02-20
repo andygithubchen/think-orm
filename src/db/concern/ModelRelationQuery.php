@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\concern;
+namespace thinkorm\db\concern;
 
 use Closure;
-use think\helper\Str;
-use think\Model;
-use think\model\Collection as ModelCollection;
+use thinkorm\helper\Str;
+use thinkorm\Model;
+use thinkorm\model\Collection as ModelCollection;
 
 /**
  * 模型及关联查询

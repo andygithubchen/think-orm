@@ -10,15 +10,15 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace thinkorm\db;
 
 use Closure;
 use PDO;
 use PDOStatement;
-use think\db\exception\BindParamException;
-use think\db\exception\DataNotFoundException;
-use think\db\exception\ModelNotFoundException;
-use think\db\exception\PDOException;
+use thinkorm\db\exception\BindParamException;
+use thinkorm\db\exception\DataNotFoundException;
+use thinkorm\db\exception\ModelNotFoundException;
+use thinkorm\db\exception\PDOException;
 
 /**
  * 数据库连接基础类
@@ -214,7 +214,7 @@ abstract class PDOConnection extends Connection implements ConnectionInterface
      */
     public function getBuilderClass(): string
     {
-        return $this->getConfig('builder') ?: '\\think\\db\\builder\\' . ucfirst($this->getConfig('type'));
+        return $this->getConfig('builder') ?: '\\thinkorm\\db\\builder\\' . ucfirst($this->getConfig('type'));
     }
 
     /**
@@ -583,7 +583,7 @@ abstract class PDOConnection extends Connection implements ConnectionInterface
      * @param BaseQuery    $query     查询对象
      * @param string       $sql       sql指令
      * @param array        $bind      参数绑定
-     * @param \think\Model $model     模型对象实例
+     * @param \thinkorm\Model $model     模型对象实例
      * @param array        $condition 查询条件
      * @return \Generator
      */

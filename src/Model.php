@@ -10,14 +10,14 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think;
+namespace thinkorm;
 
 use ArrayAccess;
 use Closure;
 use JsonSerializable;
-use think\contract\Arrayable;
-use think\contract\Jsonable;
-use think\db\BaseQuery as Query;
+use thinkorm\contract\Arrayable;
+use thinkorm\contract\Jsonable;
+use thinkorm\db\BaseQuery as Query;
 
 /**
  * Class Model

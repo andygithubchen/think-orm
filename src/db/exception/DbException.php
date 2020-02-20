@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\exception;
+namespace thinkorm\db\exception;
 
 use Exception;
 

@@ -10,11 +10,11 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace thinkorm\db;
 
 use Psr\SimpleCache\CacheInterface;
-use think\DbManager;
-use think\db\CacheItem;
+use thinkorm\DbManager;
+use thinkorm\db\CacheItem;
 
 /**
  * 数据库连接基础类

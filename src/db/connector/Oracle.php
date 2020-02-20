@@ -7,11 +7,11 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\connector;
+namespace thinkorm\db\connector;
 
 use PDO;
-use think\db\BaseQuery;
-use think\db\PDOConnection;
+use thinkorm\db\BaseQuery;
+use thinkorm\db\PDOConnection;
 
 /**
  * Oracle数据库驱动

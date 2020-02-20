@@ -10,11 +10,11 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model;
+namespace thinkorm\model;
 
-use think\Collection as BaseCollection;
-use think\Model;
-use think\Paginator;
+use thinkorm\Collection as BaseCollection;
+use thinkorm\Model;
+use thinkorm\Paginator;
 
 /**
  * 模型数据集类

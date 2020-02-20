@@ -8,10 +8,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\builder;
+namespace thinkorm\db\builder;
 
-use think\db\Builder;
-use think\db\Query;
+use thinkorm\db\Builder;
+use thinkorm\db\Query;
 
 /**
  * Oracle数据库驱动

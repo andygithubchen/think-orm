@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace thinkorm\model\concern;
 
-use think\db\BaseQuery as Query;
+use thinkorm\db\BaseQuery as Query;
 
 /**
  * 数据软删除

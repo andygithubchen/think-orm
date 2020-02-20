@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db;
+namespace thinkorm\db;
 
 use PDOStatement;
-use think\helper\Str;
+use thinkorm\helper\Str;
 
 /**
  * PDO数据查询类

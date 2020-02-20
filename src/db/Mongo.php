@@ -7,7 +7,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
-namespace think\db;
+namespace thinkorm\db;
 
 use MongoDB\Driver\BulkWrite;
 use MongoDB\Driver\Command;
@@ -20,10 +20,10 @@ use MongoDB\Driver\Exception\RuntimeException;
 use MongoDB\Driver\Query as MongoQuery;
 use MongoDB\Driver\ReadPreference;
 use MongoDB\Driver\WriteConcern;
-use think\Collection;
-use think\db\connector\Mongo as Connection;
-use think\db\exception\DbException as Exception;
-use think\Paginator;
+use thinkorm\Collection;
+use thinkorm\db\connector\Mongo as Connection;
+use thinkorm\db\exception\DbException as Exception;
+use thinkorm\Paginator;
 
 class Mongo extends BaseQuery
 {

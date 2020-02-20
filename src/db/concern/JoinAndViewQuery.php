@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\concern;
+namespace thinkorm\db\concern;
 
-use think\db\Raw;
-use think\helper\Str;
+use thinkorm\db\Raw;
+use thinkorm\helper\Str;
 
 /**
  * JOIN和VIEW查询

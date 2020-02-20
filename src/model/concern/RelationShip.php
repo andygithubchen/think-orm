@@ -10,26 +10,26 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace thinkorm\model\concern;
 
 use Closure;
-use think\Collection;
-use think\db\BaseQuery as Query;
-use think\db\exception\DbException as Exception;
-use think\helper\Str;
-use think\Model;
-use think\model\Relation;
-use think\model\relation\BelongsTo;
-use think\model\relation\BelongsToMany;
-use think\model\relation\HasMany;
-use think\model\relation\HasManyThrough;
-use think\model\relation\HasOne;
-use think\model\relation\HasOneThrough;
-use think\model\relation\MorphMany;
-use think\model\relation\MorphOne;
-use think\model\relation\MorphTo;
-use think\model\relation\MorphToMany;
-use think\model\relation\OneToOne;
+use thinkorm\Collection;
+use thinkorm\db\BaseQuery as Query;
+use thinkorm\db\exception\DbException as Exception;
+use thinkorm\helper\Str;
+use thinkorm\Model;
+use thinkorm\model\Relation;
+use thinkorm\model\relation\BelongsTo;
+use thinkorm\model\relation\BelongsToMany;
+use thinkorm\model\relation\HasMany;
+use thinkorm\model\relation\HasManyThrough;
+use thinkorm\model\relation\HasOne;
+use thinkorm\model\relation\HasOneThrough;
+use thinkorm\model\relation\MorphMany;
+use thinkorm\model\relation\MorphOne;
+use thinkorm\model\relation\MorphTo;
+use thinkorm\model\relation\MorphToMany;
+use thinkorm\model\relation\OneToOne;
 
 /**
  * 模型关联处理
@@ -720,7 +720,7 @@ trait RelationShip
     {
         $relation = Str::camel($attr);
 
-        if (method_exists($this, $relation) && !method_exists('think\Model', $relation)) {
+        if (method_exists($this, $relation) && !method_exists('thinkorm\Model', $relation)) {
             return $relation;
         }
 

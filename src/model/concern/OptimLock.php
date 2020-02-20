@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model\concern;
+namespace thinkorm\model\concern;
 
-use think\db\exception\DbException as Exception;
+use thinkorm\db\exception\DbException as Exception;
 
 /**
  * 乐观锁

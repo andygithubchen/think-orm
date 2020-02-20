@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model;
+namespace thinkorm\model;
 
-use think\Model;
+use thinkorm\Model;
 
 /**
  * 多对多中间表模型类

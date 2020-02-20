@@ -9,18 +9,18 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace thinkorm\model\relation;
 
 use Closure;
-use think\Collection;
-use think\db\BaseQuery as Query;
-use think\db\exception\DbException as Exception;
-use think\db\Raw;
-use think\helper\Str;
-use think\Model;
-use think\model\Pivot;
-use think\model\Relation;
-use think\Paginator;
+use thinkorm\Collection;
+use thinkorm\db\BaseQuery as Query;
+use thinkorm\db\exception\DbException as Exception;
+use thinkorm\db\Raw;
+use thinkorm\helper\Str;
+use thinkorm\Model;
+use thinkorm\model\Pivot;
+use thinkorm\model\Relation;
+use thinkorm\Paginator;
 
 /**
  * 多对多关联类
@@ -117,7 +117,7 @@ class BelongsToMany extends Relation
         if ($pivot instanceof Pivot) {
             return $pivot;
         } else {
-            throw new Exception('pivot model must extends: \think\model\Pivot');
+            throw new Exception('pivot model must extends: \thinkorm\model\Pivot');
         }
     }
 

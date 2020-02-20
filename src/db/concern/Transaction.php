@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\concern;
+namespace thinkorm\db\concern;
 
-use think\db\BaseQuery;
+use thinkorm\db\BaseQuery;
 
 /**
  * 事务支持

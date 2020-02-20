@@ -10,12 +10,12 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\db\concern;
+namespace thinkorm\db\concern;
 
-use think\Collection;
-use think\db\exception\DataNotFoundException;
-use think\db\exception\ModelNotFoundException;
-use think\helper\Str;
+use thinkorm\Collection;
+use thinkorm\db\exception\DataNotFoundException;
+use thinkorm\db\exception\ModelNotFoundException;
+use thinkorm\helper\Str;
 
 /**
  * 查询数据处理

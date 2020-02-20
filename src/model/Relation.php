@@ -10,17 +10,17 @@
 // +----------------------------------------------------------------------
 declare (strict_types = 1);
 
-namespace think\model;
+namespace thinkorm\model;
 
 use Closure;
 use ReflectionFunction;
-use think\db\BaseQuery as Query;
-use think\db\exception\DbException as Exception;
-use think\Model;
+use thinkorm\db\BaseQuery as Query;
+use thinkorm\db\exception\DbException as Exception;
+use thinkorm\Model;
 
 /**
  * 模型关联基础类
- * @package think\model
+ * @package thinkorm\model
  * @mixin Query
  */
 abstract class Relation

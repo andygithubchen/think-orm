@@ -9,10 +9,10 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\facade;
+namespace thinkorm\facade;
 
-if (class_exists('think\Facade')) {
-    class Facade extends \think\Facade
+if (class_exists('thinkorm\Facade')) {
+    class Facade extends \thinkorm\Facade
     {}
 } else {
     class Facade
@@ -42,7 +42,7 @@ if (class_exists('think\Facade')) {
          */
         protected static function createFacade(bool $newInstance = false)
         {
-            $class = static::getFacadeClass() ?: 'think\DbManager';
+            $class = static::getFacadeClass() ?: 'thinkorm\DbManager';
 
             if (static::$alwaysNewInstance) {
                 $newInstance = true;
@@ -69,8 +69,8 @@ if (class_exists('think\Facade')) {
 }
 
 /**
- * @see \think\DbManager
- * @mixin \think\DbManager
+ * @see \thinkorm\DbManager
+ * @mixin \thinkorm\DbManager
  */
 class Db extends Facade
 {
@@ -81,6 +81,6 @@ class Db extends Facade
      */
     protected static function getFacadeClass()
     {
-        return 'think\DbManager';
+        return 'thinkorm\DbManager';
     }
 }

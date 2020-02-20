@@ -9,11 +9,11 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace thinkorm\model\relation;
 
 use Closure;
-use think\helper\Str;
-use think\Model;
+use thinkorm\helper\Str;
+use thinkorm\Model;
 
 /**
  * 远程一对一关联类
