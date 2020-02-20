@@ -1,6 +1,6 @@
 {
     "name": "andygithubchen/think-orm",
-    "description": "think orm",
+    "description": "thinkorm",
     "keywords": [
         "orm",
         "database"
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\": "src"
+            "thinkorm\\": "src"
         },
         "files": []
     }
